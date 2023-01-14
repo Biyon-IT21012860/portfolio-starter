@@ -1,0 +1,53 @@
+.contact-form{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 80vh;
+    margin-top: 4rem;
+}
+
+.c-right{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+.c-right>form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+input[type=text] {   
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3rem;
+    outline: none;
+    border-radius: 8px;
+    font-size: 16px; 
+    border: 2px solid var(--orange);  
+}
+input[type=email]{
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3rem;
+    outline: none;
+    border-radius: 8px;
+    font-size: 16px; 
+    border: 2px solid var(--orange); 
+}
+textarea{
+    height: 4rem!important;
+}
+.user{
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3rem;
+    outline: none;
+    border-radius: 8px;
+    font-size: 16px; 
+    border: 2px solid var(--orange); 
+}
+.s-blur{
+    top:4rem;
+    left: 2rem;
+}
